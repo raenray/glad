@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 add_library(glad STATIC 
-    src/glad.c
+    src/gl.c
 )
 
 target_include_directories(glad PUBLIC
